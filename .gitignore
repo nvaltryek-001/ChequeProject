@@ -64,3 +64,26 @@ htmlcov/
 Thumbs.db
 .vscode/
 .idea/
+
+# Local environments and dependencies
+.venv/
+.venv312/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+frontend/dist/
+**/.vite/
+
+# Secrets and local databases
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+
+# Disposable backups and generated logs
+backups/
+reports/BACKUP_*/
+*.log
