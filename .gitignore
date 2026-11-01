@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.venv312/
+.pytest_cache/
+# Runtime data – contains cheque images, biometric specimens and the database
+backend/instance/
+backend/.env
+# Original datasets are private and never committed
+/dataset/
+/signature/
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# Databases and user data
+*.db
+*.sqlite
+*.sqlite3
+backend/instance/
+backend/uploads/
+uploads/
+storage/
+
+# Private datasets and cheque images
+dataset/
+signature/
+**/test_images/
+**/private/
+**/sensitive/
+
+# Generated output
+reports/
+logs/
+*.log
+coverage/
+htmlcov/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
